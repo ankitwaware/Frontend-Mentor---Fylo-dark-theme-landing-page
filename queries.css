@@ -1,0 +1,114 @@
+@media screen and (max-width: 375px) {
+  .header {
+    height: 3rem;
+    padding: 0 1rem;
+  }
+
+  .logo {
+    height: 1.3rem;
+  }
+
+  .nav-list {
+    gap: 1rem;
+  }
+
+  .intro-box {
+    max-width: 22rem;
+  }
+
+  .intro-img {
+    width: 91%;
+  }
+
+  .intro-heading {
+    font-size: 1.6rem;
+  }
+
+  .intro-subheading {
+    padding: 0 25px;
+  }
+
+  .feature {
+    max-width: 84%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team {
+    max-width: 20rem;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .team-heading {
+    font-size: 1.2rem;
+  }
+
+  .testimonials {
+    max-width: 20rem;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1.2rem;
+  }
+
+  .bg-quote {
+    left: 0px;
+  }
+
+  .testimonial-box {
+    font-size: 12px;
+  }
+
+  .cta {
+    max-width: 21rem;
+    padding: 2rem 1.8rem;
+    row-gap: 1.4rem;
+  }
+
+  .cta-heading {
+    font-size: 1.2rem;
+  }
+
+  .cta-subheading {
+    font-size: var(--font-size-body);
+  }
+
+  .input-form {
+    align-items: stretch;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .input-email::placeholder {
+    font-size: 12px;
+  }
+
+  .footer {
+    margin: -9.5rem auto;
+    padding: 12rem 1.5rem 3rem;
+  }
+  
+  .footer-img {
+    height: 3rem;
+  }
+
+  .footer-details-box {
+    font-size: 16px;
+    grid-template-columns: 1fr ;
+   row-gap: 4rem;
+  }
+  
+  .address-phone-email-box {
+   
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+   } 
+  
+   .about-contact-box {
+    grid-template-columns: 100px;
+    row-gap: 2rem;
+  }
+  
+   .social-icon-box {
+    justify-content: center;
+  }
+
+}
